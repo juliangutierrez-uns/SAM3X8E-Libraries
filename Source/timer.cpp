@@ -436,7 +436,7 @@ bool EventCaptureClass::initialize(){
 bool EventCaptureClass::calculateClock(){
 /** 
 There are four main options for a clock select:
-	TIMER_CLOCK_1 = MCK/2   = 84,000,000/2   =  48.000 MHz =   20.83333 nS/tick
+	TIMER_CLOCK_1 = MCK/2   = 84,000,000/2   =  42.000 MHz =   23.80952 nS/tick
 	TIMER_CLOCK_2 = MCK/8   = 84,000,000/8   =  10.500 MHz =   95.23809 nS/tick
 	TIMER_CLOCK_3 = MCK/32  = 84,000,000/32  =   2.625 MHz =  380.95238 nS/tick
 	TIMER_CLOCK_4 = MCK/128 = 84,000,000/128 = 656.250 kHz = 1523.80952 nS/tick
